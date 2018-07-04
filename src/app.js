@@ -40,7 +40,6 @@ export default class App extends React.Component{
     render(){
         return(
         <div>
-            <NewGame />
             <h1>Guess the Number!</h1>
             <Alert secretNum={this.state.secretNum} guess={this.state.guess}/>
             <Form 
@@ -54,6 +53,7 @@ export default class App extends React.Component{
             />
             <Count count={this.state.count}/>
             <Tracking guessArray={this.state.guessArray}/>
+            <NewGame />
         </div>)
     }
 

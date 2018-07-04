@@ -1,0 +1,13 @@
+#new-game-btn{
+    background-color: #AD3642;
+    color: #F0E6DB;
+    border-radius: .5rem;
+}
+#new-game-div button {
+    transition-duration: 0.4s;
+}
+
+#new-game-div button:hover {
+    background-color: #AEDCD5;
+    color: #126B85;
+}

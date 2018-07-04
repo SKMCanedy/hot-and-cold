@@ -1,0 +1,9 @@
+#count-block{
+    color:#F0E6DB;
+    background-color: #3A9CB1;
+}
+
+#count-block p {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}

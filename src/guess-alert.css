@@ -1,0 +1,9 @@
+#feedback-block {
+    background-color: #AD3642;
+    border-radius: .5rem .5rem 0 0;
+}
+
+#feedback-block p {
+    margin: 2px;
+    color: #F0E6DB
+}

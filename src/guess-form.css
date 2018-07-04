@@ -1,0 +1,28 @@
+#form-div{
+    background-color: #3A9CB1;
+}
+
+input, .btn {
+    width: 33%;
+    height: 2rem;
+    background-color: #5BB3BC;
+    border-style: solid;
+    border-radius: .5rem;
+    border-width: 1px;
+    border-color: #AEDCD5;
+    color: #F0E6DB;
+}
+
+fieldset {
+    border: 0px;
+}
+
+.btn {
+    margin-top: .5rem;
+    transition-duration: 0.4s;
+}
+
+#form-div button:hover {
+    background-color: #126B85;
+    color: #F0E6DB;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import "./guess-alert.css"
+
 export default function Alert(props){
     let feedback="Pick a number between 1 and 100 and I'll tell you if you're hot or cold"
     const difference = Math.abs(props.guess-props.secretNum);
@@ -23,7 +25,7 @@ export default function Alert(props){
     }
 
     return (
-        <div>
+        <div className="center" id="feedback-block">
             <p>{feedback}</p>
         </div>
     )

@@ -1,0 +1,16 @@
+#tracking-div {
+    margin-bottom: .2rem;
+    background-color: #3A9CB1;
+    border-radius: 0 0 .5rem .5rem;
+}
+
+#tracking-div p {
+    margin: 2px;
+    color: #F0E6DB;
+}
+
+.inline {
+    display: inline-block;
+    width:15%;
+    color:#F0E6DB;
+}

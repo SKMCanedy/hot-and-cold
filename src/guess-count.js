@@ -1,9 +1,11 @@
 import React from 'react';
 
+import "./guess-count.css";
+
 export default function Count(props){
     return(
-    <div>
-        <p>Guess # {props.count} </p>
+    <div className="center" id="count-block">
+        <p>Attempt # {props.count} </p>
     </div>
     )
 }
