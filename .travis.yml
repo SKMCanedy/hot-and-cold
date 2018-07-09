@@ -2,6 +2,13 @@ language: node_js
 node_js: node
 cache:
   directories:
-    - node_modules
+  - node_modules
 env:
-  - CI=true
+- CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: cSJ8zRR3fjUBLQjbk9j4KcK9p1EKUyKPCQHzytMyCPfAZlGN2jWXc/2392fpx6TmV3HbDyz5xw+rdajTsVc473YQfZ9yL7LcKUV2jUPfCQCBDxmRPplrFQLdrBjsdi/vIvnFg77Mp+nQk5dOMdnygtSGwuH2KVyD9PMBKtXOJHq0+ab2a3010iXJZgjgT4WGY7at+T1yHrm+Oe2fzxIeH7qeZEE3vJN/T6l9lPAxu+f9UTzavfQNa+KnX4mwBFJn1mdSrfcddO6rtU1so5YkH9duzSyReM/cG7yHw+lJ4rSOlHZXuW6OfDMpYObaP+Sj5vFpK4GrQtk58NTxYM/y+blPcbhw0lmM/NyYoMOV2QfKjUNiGjPZrdG17eseVmkcpiqTIKMtFLzMqpu36jIq2zRGn/Ppv0dANfBImiTA+6EPYfCl5iOsmT/JHx4de+zTBTYApUfgpH7LcadG8s0sI00yHlIha/QUaxOC9Xwaf5d1ayVZAOKDyVUiw+cSndrsCsoCvBznrNASoPo3fWGP7C4fxVqO0RSKSP57ZbymZTFEuasZ2jgvnmd5Rh3BWXbdtQ7vollRYs7nK1cIqx/rutvNHN49aqaJy/3FXj+14dZhfhBACXMESRTstd/P08Rkj5EJlPCEfgzZfkq4v994DIe0Snx+p8TBQ4IdrdLuAbU=
+  app: evening-everglades-76747
+  on:
+    repo: SKMCanedy/hot-and-cold
